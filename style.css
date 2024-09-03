@@ -1,0 +1,40 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #151D28;
+    font-family: verdana;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    background-color: #2A3A50;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+#display{
+    font-size: 2rem;
+    
+    margin-bottom: 1rem;
+    color:white;
+}
+
+button{
+    font-size: 1rem;
+    background-color: #3F5678;
+    border-radius: 5px;
+    padding: 0.5rem;
+    border: none;
+    cursor: pointer;
+    color: white;
+    transition: background-color 0.3ms;
+}
+button:hover{
+    background-color: #466086;
+}
+
